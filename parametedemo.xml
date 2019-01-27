@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test">
+
+		<parameter name="fname" value="john" />
+		<parameter name="lname" value="abraham" />
+		<parameter name="add1" value="mumbai" />
+		<parameter name="add2" value="navi mumabai" />
+
+		<classes>  
+		<class name="com.qa.datadrivenParameterisation.DPusingParamsXML" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
