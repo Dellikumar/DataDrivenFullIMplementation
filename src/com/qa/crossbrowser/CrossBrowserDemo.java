@@ -61,6 +61,8 @@ public class CrossBrowserDemo {
 		driver.findElement(By.name(or.getProperty("login_pwd"))).sendKeys("mercury@568");
 		driver.findElement(By.xpath(or.getProperty("login_sgnBtn"))).click();
 		driver.quit();
+		
+		System.out.println("Finally browser got closed succesfully");
 		}
 	
 	
